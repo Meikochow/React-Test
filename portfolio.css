@@ -20,7 +20,7 @@ body{
 }
 .fa{
   text-decoration:none;
-  color:rgba(0, 0, 0);
+  color:rgb(0, 0, 0);
   margin:3px;
 }
   .fa-free-code-camp:hover {
