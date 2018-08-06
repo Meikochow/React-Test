@@ -77,7 +77,7 @@ font-family:'Varela';
 }
 .projectThumbnail{
   height:100px;
-  background-size:250px 100px;
+  background-size:250px;
 }
 .projectsDescription{
   height:90px;
