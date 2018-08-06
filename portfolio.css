@@ -67,6 +67,7 @@ font-family:'Varela';
 }
 #project{
   background-color:white;
+border:5px solid blue;
 }
 #portfolio{
   display:flex;
