@@ -80,6 +80,7 @@ font-family:'Varela';
   background-size:250px 100px;
 }
 .projectsDescription{
+	border:5px solid orange;
   height:90px;
   margin:0px;
   padding:5px;
@@ -105,7 +106,7 @@ font-family:'Varela';
    text-decoration:none; 
 }
 .project:hover .projectsDescription{
-  display:none;
+  border: 10px solid green;
 }
 .project:hover a{
   text-decoration:underline;
