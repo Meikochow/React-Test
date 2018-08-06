@@ -77,7 +77,6 @@ font-family:'Varela';
 }
 .projectThumbnail{
   height:100px;
-  width:100%;
   background-size:250px 100px;
 }
 .projectsDescription{
@@ -101,7 +100,6 @@ font-family:'Varela';
   align-items:center;
   background:white;
   background:#e6ffff;
-
 }
 .project a{
    text-decoration:none; 
@@ -113,9 +111,7 @@ font-family:'Varela';
   text-decoration:underline;
 }
 #certifications{
-   display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
+
   margin-bottom:16px;
    background-color:rgba(200,200,200, 0.8);
      font-family:'Varela';
