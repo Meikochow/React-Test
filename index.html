@@ -237,7 +237,7 @@ document.getElementById('portfolio').style.backgroundColor = tabIds[i].backgroun
   }
   render(){
  var projectList = order.map(function(val,ind,arr){
-   return(<div  id={projects[val].id} className={projects[val].class} ><a href={projects[val].projectHref} target='_blank'><div  style={{backgroundImage:'url('+projects[val].projectThumbNailLink+')'}} alt={projects[val].alt} class=" projectThumbnail"><p class="projectsDescription">{projects[val].projectDescription}</p></div><h3 class="projectName">{projects[val].projectName}</h3></a> <hr/><h4><i class='fa fa-html5 '></i><i className='fa fa-css3 '></i>{projects[val].projectTech}</h4></div>)
+   return(<div  id={projects[val].id} className={projects[val].class} ><a href={projects[val].projectHref} target='_blank'><div  style={{backgroundImage:'url('+projects[val].projectThumbNailLink+')'}} alt={projects[val].alt} className=" projectThumbnail"><p className="projectsDescription">{projects[val].projectDescription}</p></div><h3 className="projectName">{projects[val].projectName}</h3></a> <hr/><h4><i className='fa fa-html5 '></i><i className='fa fa-css3 '></i>{projects[val].projectTech}</h4></div>)
  })
 return(
   <div id='portfolioContainer'>
@@ -306,11 +306,11 @@ class App extends React.Component{
         <header><h1>Hey!<br/> I'm Victor Cojocaru</h1></header>
 <h3>I'm a Front End Developer, Coding Enthusiast, and a Geneticist with a B.Sc. in Molecular Biology</h3>
 
-<a href="https://www.freecodecamp.org/meikochow" target="_blank" className="fa fa-free-code-camp fa-3x" aria-hidden="true"></a>
-        <a href="https://github.com/Meikochow" target="_blank" class="fa fa-github-square fa-3x" aria-hidden="true"></a>
-        <a href="https://www.linkedin.com/in/victor-cojocaru-97015bb3/" target="_blank" class="fa fa-linkedin fa-3x" aria-hidden="true"></a>
-        <a href="https://codepen.io/Meikochow/" target="_blank"class="fa fa-codepen fa-3x" aria-hidden="true"></a>
-        <a href="https://plus.google.com/u/1/112340815014967339256" target="_blank"class="fa fa-google fa-3x" aria-hidden="true"></a>
+<a href="https://www.freecodecamp.org/meikochow" target="_blank" className="fas fa-free-code-camp fa-3x" aria-hidden="true"></a>
+        <a href="https://github.com/Meikochow" target="_blank" className="fa fa-github-square fa-3x" aria-hidden="true"></a>
+        <a href="https://www.linkedin.com/in/victor-cojocaru-97015bb3/" target="_blank" className="fa fa-linkedin fa-3x" aria-hidden="true"></a>
+        <a href="https://codepen.io/Meikochow/" target="_blank"className="fa fa-codepen fa-3x" aria-hidden="true"></a>
+        <a href="https://plus.google.com/u/1/112340815014967339256" target="_blank"className="fa fa-google fa-3x" aria-hidden="true"></a>
         </div>
         <MyProjects/>
              <div id="certifications">
