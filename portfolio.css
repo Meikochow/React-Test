@@ -66,22 +66,20 @@ font-family:'Varela';
   padding-left:3px;
 }
 #project{
-  background-color:white;
-border:5px solid blue;
+ background-color:white;
 }
 #portfolio{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  margin-bottom:16px;
-     font-family:'Cuprum';
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ margin-bottom:16px;
+ font-family:'Cuprum';
 }
 .projectThumbnail{
   height:100px;
   background-size:250px 100px;
 }
 .projectsDescription{
-	border:5px solid orange;
   height:90px;
   margin:0px;
   padding:5px;
@@ -107,13 +105,15 @@ border:5px solid blue;
    text-decoration:none; 
 }
 .project:hover .projectsDescription{
-  border: 10px solid green;
+  display:block;
 }
 .project:hover a{
   text-decoration:underline;
 }
 #certifications{
-
+   display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
   margin-bottom:16px;
    background-color:rgba(200,200,200, 0.8);
      font-family:'Varela';
